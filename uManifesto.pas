@@ -62,7 +62,6 @@ type
     procedure btnConsultarClick(Sender: TObject);
     procedure gridDadosDblClick(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
-    procedure BitBtn1Click(Sender: TObject);
   private
     { Private declarations }
   fDMManifesto : TDMManifesto;
@@ -85,14 +84,6 @@ uses
   uUtilPadrao, FileCtrl;
 
 {$R *.dfm}
-
-procedure TfrmManifesto.BitBtn1Click(Sender: TObject);
-var
-  i : integer;
-begin
-  i := ProximaSequencia('CUPOMFISCAL',0,'0');
-  ShowMessage(i.ToString);
-end;
 
 procedure TfrmManifesto.btnConsultarClick(Sender: TObject);
 begin

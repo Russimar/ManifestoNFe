@@ -281,7 +281,6 @@ object frmManifesto: TfrmManifesto
       Height = 25
       Caption = 'BitBtn1'
       TabOrder = 6
-      OnClick = BitBtn1Click
     end
   end
   object pnlPrincipal: TPanel
@@ -369,7 +368,6 @@ object frmManifesto: TfrmManifesto
           FieldName = 'CNPJ'
           ReadOnly = True
           Title.Alignment = taCenter
-          Width = 64
           Visible = True
         end
         item
@@ -383,7 +381,6 @@ object frmManifesto: TfrmManifesto
           Expanded = False
           FieldName = 'NUM_PROTOCOLO'
           Title.Alignment = taCenter
-          Width = 64
           Visible = True
         end
         item
@@ -391,14 +388,12 @@ object frmManifesto: TfrmManifesto
           FieldName = 'DescSituacao_Manif'
           Title.Alignment = taCenter
           Title.Caption = 'Situa'#231#227'o Manifesto'
-          Width = 64
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'Baixado'
           Title.Alignment = taRightJustify
-          Width = 64
           Visible = True
         end
         item
@@ -406,14 +401,12 @@ object frmManifesto: TfrmManifesto
           FieldName = 'TIPO_EVE'
           Title.Alignment = taCenter
           Title.Caption = 'Evento'
-          Width = 64
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'CNPJ_FILIAL'
           Title.Alignment = taCenter
-          Width = 64
           Visible = True
         end
         item
@@ -432,49 +425,42 @@ object frmManifesto: TfrmManifesto
           Expanded = False
           FieldName = 'SERIE'
           Title.Alignment = taCenter
-          Width = 64
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'NSU'
           Title.Alignment = taCenter
-          Width = 64
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'SITUACAO_NFE'
           Title.Alignment = taCenter
-          Width = 64
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'POSSUI_CCE'
           Title.Alignment = taCenter
-          Width = 64
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'OCULTAR'
           Title.Alignment = taCenter
-          Width = 64
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'DTRECEBIMENTO'
           Title.Alignment = taCenter
-          Width = 64
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'GRAVADA_NOTA'
           Title.Alignment = taCenter
-          Width = 64
           Visible = True
         end>
     end
